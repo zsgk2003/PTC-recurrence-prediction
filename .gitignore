@@ -41,6 +41,7 @@ thyroid_cancer_9models_results_pureNoStacking_335PTCpatients_lightGBM/
 # Large text files
 abstract-papillary thyroid carcinoma recurrence-set.txt
 References.txt
+PTC_Recurrence_Prediction_Full_Paper.md
 
 # OS
 .DS_Store
