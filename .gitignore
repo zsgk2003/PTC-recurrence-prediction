@@ -32,8 +32,10 @@ wheels/
 # CatBoost
 catboost_info/
 
-# Results directory
-thyroid_cancer_9models_results_pureNoStacking_335PTCpatients_lightGBM/
+# Results directory - only keep specific model files
+thyroid_cancer_9models_results_pureNoStacking_335PTCpatients_lightGBM/*
+!thyroid_cancer_9models_results_pureNoStacking_335PTCpatients_lightGBM/scaler.pkl
+!thyroid_cancer_9models_results_pureNoStacking_335PTCpatients_lightGBM/BEST_MODEL_LightGBM.pkl
 
 # Data files (optional - comment out if you want to include data)
 # *.csv
