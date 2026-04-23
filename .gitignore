@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Streamlit
+.streamlit/
+
+# CatBoost
+catboost_info/
+
+# Results directory
+thyroid_cancer_9models_results_pureNoStacking_335PTCpatients_lightGBM/
+
+# Data files (optional - comment out if you want to include data)
+# *.csv
+
+# Large text files
+abstract-papillary thyroid carcinoma recurrence-set.txt
+References.txt
+
+# OS
+.DS_Store
+Thumbs.db
